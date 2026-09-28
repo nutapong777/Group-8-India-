@@ -1,0 +1,71 @@
+{
+  "raw_rows": 30000,
+  "raw_columns": [
+    "State",
+    "District",
+    "Year",
+    "Crime_Type",
+    "Cases_Reported",
+    "Chargesheeted",
+    "Chargesheet_Rate",
+    "Convictions",
+    "Convictions_Rate",
+    "Population",
+    "Crime_Rate_per_100k",
+    "Justice_index"
+  ],
+  "missing_values": {
+    "State": 0,
+    "District": 0,
+    "Year": 0,
+    "Crime_Type": 0,
+    "Cases_Reported": 0,
+    "Chargesheeted": 0,
+    "Chargesheet_Rate": 0,
+    "Convictions": 0,
+    "Convictions_Rate": 0,
+    "Population": 0,
+    "Crime_Rate_per_100k": 0,
+    "Justice_index": 0
+  },
+  "duplicate_rows": 0,
+  "duplicate_keys": 0,
+  "logically_invalid_rows": 0,
+  "max_abs_diff": {
+    "Chargesheet_Rate": 0.0,
+    "Crime_Rate_per_100k": 0.0049994441451364224
+  },
+  "join_check_cases_match": true,
+  "join_check_year_match": true,
+  "clean_rows": 30000,
+  "cluster_profile": {
+    "cluster_0": {
+      "Chargesheet_Rate": 85.53,
+      "Convictions_Rate": 52.27,
+      "Crime_Rate_per_100k": 26.45,
+      "Justice_index": 43.05,
+      "n": 5384
+    },
+    "cluster_1": {
+      "Chargesheet_Rate": 72.49,
+      "Convictions_Rate": 36.6,
+      "Crime_Rate_per_100k": 15.09,
+      "Justice_index": 10.26,
+      "n": 12275
+    },
+    "cluster_2": {
+      "Chargesheet_Rate": 78.47,
+      "Convictions_Rate": 41.59,
+      "Crime_Rate_per_100k": 65.65,
+      "Justice_index": 29.89,
+      "n": 2895
+    },
+    "cluster_3": {
+      "Chargesheet_Rate": 86.39,
+      "Convictions_Rate": 48.94,
+      "Crime_Rate_per_100k": 11.46,
+      "Justice_index": 8.33,
+      "n": 9446
+    }
+  }
+}
